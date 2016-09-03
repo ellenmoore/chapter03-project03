@@ -1,0 +1,50 @@
+body {
+	font-family: "Trebucchet MS", "Lucida Grande", Tahoma, sans-serif;
+	height: 100%;
+	width: 100%;
+	background: url(images/art-background4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header {
+	background-color: #ffffff;
+	width: 400px;
+	padding: 20px 10px 20px 10px;
+	margin-left: 10%;
+}
+h1 {
+	font-size: 4em;
+	font-family: "Six Caps", Arial Narrow, sans-serif;
+}
+article {
+	background-color:rgba(255,255,255,0.3);	
+	
+	width: 500px;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+
+article>h2 {
+	background-color:rgba(255,255,255,0.6);
+
+}
+article p {
+	font-family: Georgia, Cambria, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+#timeline {
+	background-color:rgba(0,0,0,0.3);
+	margin: 0 5% 5% 5%;
+}
+footer {
+	background-color: #ffffff;
+}
+a[href^="mailto"] {
+	background: url(images/email.png) no-repeat 0 3px; 
+	padding-left: 1em; 
+} 
+article>* {
+	padding: 5%;
+}
